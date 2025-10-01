@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "prjAPI.Controllers.EmpleadoController",
+    "Method": "listar",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "prjAPI.Controllers.EmpleadoController",
+    "Method": "crear",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objEmpleado",
+        "Type": "ApiPlantilla.Models.catEmpleados.clsCatEmpleados",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "prjAPI.Controllers.EmpleadoController",
+    "Method": "editar",
+    "RelativePath": "api/Empleado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objEmpleado",
+        "Type": "ApiPlantilla.Models.catEmpleados.clsCatEmpleados",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "prjAPI.Controllers.EmpleadoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Empleado/{idEmpleado}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "prjAPI.Controllers.EmpleadoController",
+    "Method": "eliminar",
+    "RelativePath": "api/Empleado/{IdEmpleado}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPlantilla.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiPlantilla.WeatherForecast, ApiPlantilla, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

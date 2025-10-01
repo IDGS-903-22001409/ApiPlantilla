@@ -1,0 +1,6 @@
+@ApiPlantilla_HostAddress = http://localhost:5160
+
+GET {{ApiPlantilla_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
